@@ -114,7 +114,7 @@ class Scenario(plugin.Plugin,
        You should create subclass of this class. And your test scenarios will
        be auto discoverable and you will be able to specify it in test config.
     """
-    RESOURCE_NAME_FORMAT = "s_rally_XXXXXXXX_XXXXXXXX"
+    RESOURCE_NAME_FORMAT = "s-r-XXXXX-XXXXX"
 
     def __init__(self, context=None):
         super(Scenario, self).__init__()
